@@ -1,0 +1,22 @@
+.nav-destination{
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+    position: absolute;
+    top: 30%;
+    right: 15%;
+}
+
+.des-nav{
+    height: 40px;
+    background-color: transparent;
+}
+
+.des-a{
+    padding-top: 6px;
+}
+
+a:visited, a:active, a:focus { 
+    
+    border-bottom: 5px solid white;
+}

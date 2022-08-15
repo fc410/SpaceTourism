@@ -2,3 +2,10 @@
     height: 100vh;
     background-image: url('../../images/destination/background-destination-desktop.jpg');
 }
+
+.title{
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    color: white; 
+}
