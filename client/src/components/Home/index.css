@@ -1,0 +1,43 @@
+.main-content-home{
+    background: url('../../images/home/background-home-desktop.jpg');
+    min-height: 100vh;
+    width: 100%;
+}
+
+.circle{
+    display: flex;
+    position: absolute;
+    color: rgb(68, 109, 171);
+    border-radius: 112.50px;
+    background-color: white;
+    width: 225px;
+    height: 225px;
+    align-items: center;
+    justify-content: center;
+    top: 60%;
+    right: 13%;
+    font-size: 25px;
+}
+
+.sentence-one{
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    color: rgb(204, 198, 198);
+}
+
+.space{
+    position: absolute;
+    top: 52%;
+    left: 12%;
+    color: white;
+    font-size: 80px;
+    font-weight: 200;
+}
+
+.home-paragraph{
+    position: absolute;
+    top: 70%;
+    left: 12%;
+    color:rgb(204, 198, 198);
+}

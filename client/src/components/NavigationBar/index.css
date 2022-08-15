@@ -1,0 +1,35 @@
+.main-navigation{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    position: absolute;
+    top: 5%;
+    right: 0px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(52, 69, 71);
+    width: 100%;
+    padding-left: 15%;
+    padding-right: 20%;
+    height: 100px;
+    opacity: 0.5;
+    color: white;
+}
+
+a{
+    color: white;
+    height: 100%;
+    padding-top: 35px;
+}
+
+a:hover{
+    color: white;
+}
+
+a:visited, a:active, a:focus { 
+    
+    border-bottom: 5px solid white;
+}

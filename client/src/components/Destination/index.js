@@ -2,7 +2,7 @@ import './index.css';
 
 const Destination = () => {
     return(
-        <div>
+        <div className="main-content-des">
             Destination page
         </div>
     )

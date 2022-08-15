@@ -2,7 +2,7 @@ import './index.css';
 
 const Crew = () => {
     return(
-        <div>
+        <div className="main-content-crew">
             Crew page
         </div>
     )
