@@ -7,13 +7,7 @@ const Moon = () => {
 
     return(
         <div className="main-content-des">
-            <div className="title">
-                01 PICK YOUR DESTINATION
-            </div>
-            <DestinationNav/>
-
-                <img src={MOON} alt='moon' className='moon-img'/>
-
+            <img src={MOON} alt='moon' className='moon-img'/>
 
             <div className="description-paragraph">
                 <div style={{fontSize: '70px'}}>

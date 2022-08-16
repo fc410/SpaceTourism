@@ -1,0 +1,23 @@
+.crew-destination{
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+    position: absolute;
+    bottom: 15%;
+    left: 15.5%;
+}
+
+.crew-nav{
+    width: 12.5px;
+    height: 12.5px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+.des-nav{
+    width: 250px;
+}
+
+.crew-a:visited > .crew-nav, .crew-a:active > .crew-nav, .crew-a:focus > .crew-nav{ 
+    background-color: white;
+}

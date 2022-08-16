@@ -1,5 +1,6 @@
 import './index.css';
 import DestinationNav from './DestinationNav';
+import {Outlet} from 'react-router-dom';
 
 const Destination = () => {
     return(
@@ -8,6 +9,7 @@ const Destination = () => {
                 01 PICK YOUR DESTINATION
             </div>
             <DestinationNav />
+            <Outlet />            
         </div>
     )
 }

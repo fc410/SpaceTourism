@@ -7,7 +7,7 @@
     right: 0px;
 }
 
-nav{
+.main-nav{
     display: flex;
     justify-content: space-between;
     background-color: rgb(52, 69, 71);
@@ -19,17 +19,18 @@ nav{
     color: white;
 }
 
-a{
+.nav-a{
     color: white;
     height: 100%;
     padding-top: 22px;
+    text-decoration: none;
 }
 
-a:hover{
+.nav-a:hover{
     color: white;
 }
 
-a:visited, a:active, a:focus { 
+.nav-a:visited, .nav-a:active, .nav-a:focus { 
     
     border-bottom: 5px solid white;
 }

@@ -4,11 +4,12 @@ import {NavLink} from 'react-router-dom';
 const NavigationBar = () => {
     return(
         <div className="main-navigation">
-            <nav>
+            <nav className='main-nav'>
                 <NavLink
                     exact='true'
                     activeclassname='active'
                     to='/'
+                    className='nav-a'
                 >
                     00 Home
                 </NavLink>
@@ -17,6 +18,7 @@ const NavigationBar = () => {
                     exact='true'
                     activeclassname='active'
                     to='/destination'
+                    className='nav-a'
                 >
                     01 Destination
                 </NavLink>
@@ -25,6 +27,7 @@ const NavigationBar = () => {
                     exact='true'
                     activeclassname='active'
                     to='/crew'
+                    className='nav-a'
                     >
                     02 Crew
                 </NavLink>
@@ -33,6 +36,7 @@ const NavigationBar = () => {
                     exact='true'
                     activeclassname='active'
                     to='/technology'
+                    className='nav-a'
                 >
                     03 Technology
                 </NavLink>

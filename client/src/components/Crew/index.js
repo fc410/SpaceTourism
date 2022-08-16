@@ -1,9 +1,15 @@
 import './index.css';
+import {Outlet} from 'react-router-dom';
+import CrewNav from './CrewNav'
 
 const Crew = () => {
     return(
         <div className="main-content-crew">
-            Crew page
+            <div className="title">
+                02 MEET YOUR CREW
+            </div>
+            <CrewNav />
+            <Outlet/>
         </div>
     )
 }

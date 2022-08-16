@@ -7,13 +7,7 @@ const Mars = () => {
 
     return(
         <div className="main-content-des">
-            <div className="title">
-                01 PICK YOUR DESTINATION
-            </div>
-            <DestinationNav/>
-
-                <img src={MARS} alt='mars' className='mars-img'/>
-
+            <img src={MARS} alt='mars' className='mars-img'/>
 
             <div className="description-paragraph">
                 <div style={{fontSize: '70px'}}>

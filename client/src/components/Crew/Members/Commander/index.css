@@ -1,0 +1,29 @@
+.crew-img{
+    width: 30%;
+    position: absolute;
+    bottom: 0;
+    right: 10%;
+    height: 70%;
+}
+
+.main-text{
+    position: absolute;
+    color: white;
+    width: 35%;
+    top: 40%;
+    left: 20%;
+}
+
+.position{
+    font-size: 25px;
+    color: rgb(158, 158, 158);
+}
+
+.crew-name{
+    font-size: 35px;
+}
+
+.crew-description{
+    padding-top: 25px;
+    color: rgb(158, 158, 158);
+}

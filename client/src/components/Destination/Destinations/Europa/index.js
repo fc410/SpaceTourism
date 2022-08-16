@@ -1,16 +1,10 @@
 import EUROPA from '../../../../images/destination/image-europa.webp';
-import DestinationNav from '../../DestinationNav';
 import './index.css';
 
 const Mars = () => {
     return(
         <div className="main-content-des">
-            <div className="title">
-                01 PICK YOUR DESTINATION
-            </div>
-            <DestinationNav/>
-
-                <img src={EUROPA} alt='europa' className='europa-img'/>
+            <img src={EUROPA} alt='europa' className='europa-img'/>
 
 
             <div className="description-paragraph">
