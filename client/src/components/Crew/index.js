@@ -1,15 +1,24 @@
 import './index.css';
-import {Outlet} from 'react-router-dom';
-import CrewNav from './CrewNav'
+import COMMANDER from '../../images/crew/image-douglas-hurley.png';
 
 const Crew = () => {
     return(
-        <div className="main-content-crew">
-            <div className="title">
-                02 MEET YOUR CREW
+        <div>
+            <img src={COMMANDER} alt='commander' className='crew-img'/>
+
+            <div className='main-text'>
+                <div className='position'>
+                    Commander
+                </div>
+                <div className='crew-name'>
+                    Douglas Hurley
+                </div>
+                <div className='crew-description'>
+                    Douglas Gerald Hurley is an American engineer, former Marine Corps pilot 
+                    and former NASA astronaut. He launched into space for the third time as 
+                    commander of Crew Dragon Demo-2.
+                </div>
             </div>
-            <CrewNav />
-            <Outlet/>
         </div>
     )
 }

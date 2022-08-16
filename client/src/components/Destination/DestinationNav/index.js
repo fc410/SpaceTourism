@@ -4,7 +4,7 @@ import './index.css';
 const DestinationNav = () => {
     return(
         <div className="nav-destination">
-            <nav className='des-nav'>
+            <nav className='des-nav' style={{width: '500px'}}>
                 <NavLink
                     exact='true'
                     activeclassname='active'

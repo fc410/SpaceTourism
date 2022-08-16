@@ -1,21 +1,27 @@
 import './index.css';
-import {Outlet} from 'react-router-dom';
-import TechNavigation from './TechNavigation';
+import VEHICLE from '../../images/technology/image-launch-vehicle-portrait.jpg';
 
 const Technology = () => {
     return(
         <div className="main-content-tech">
-            <div className="title">
-                03 SPACE LAUNCH 101
+             <div>
+                <img src={VEHICLE} alt='vehicle' className='tech-img' />  
+
+                <div className='tech-main-paragraph'>
+                    <div className='desc'>
+                        THE TERMINOLOGY...
+                    </div>
+                    <div className='tech-title'>
+                        LAUNCH VEHICLE
+                    </div>
+                    <div className='tech-paragraph'>
+                        A launch vehicle or carrier rocket is a rocket-propelled vehicle used to carry a 
+                        payload from Earth's surface to space, usually to Earth orbit or beyond. Our 
+                        WEB-X carrier rocket is the most powerful in operation. Standing 150 metres tall, 
+                        it's quite an awe-inspiring sight on the launch pad!
+                    </div>
+                </div>  
             </div>
-            <TechNavigation/>
-            <Outlet />  
-            <div className='tech-main-paragraph'>
-                <div className='desc'>
-                    THE TERMINOLOGY...
-                </div>
-            </div>    
-                
         </div>
     )
 }

@@ -18,6 +18,9 @@ import Capsule from './components/Technology/Technologies/Capsule';
 import Spaceport from './components/Technology/Technologies/Spaceport';
 import Vehicle from './components/Technology/Technologies/Vehicle';
 import './app.css';
+import DestinationLayout from './components/Destination/DestinationLayout'
+import CrewLayout from './components/Crew/CrewLayout';
+import TechnologyLayout from './components/Technology/TechnologyLayout';
 
 const App = () => {
   return (
@@ -28,19 +31,25 @@ const App = () => {
       <NavigationBar />
       <Routes>
         <Route index  element={<Home />}/>
-        <Route path='/crew' element={<Crew />}>
+        
+        <Route path='/crew' element={<CrewLayout />}>
+          <Route index element={<Crew />} />
           <Route path='commander' element={<Commander />}/>
           <Route path='engineer' element={<Engineer />}/>
           <Route path='pilot' element={<Pilot />}/>
           <Route path='specialist' element={<Specialist />}/>
         </Route>
-        <Route path='/destination' element={<Destination />}>
+
+        <Route path='/destination' element={<DestinationLayout />}>
+          <Route index element={<Destination />} />
           <Route path='moon' element={<Moon />} />
           <Route path='mars' element={<Mars />} />
           <Route path='europa' element={<Europa />} />
           <Route path='titan' element={<Titan />} />
         </Route>
-        <Route path='/technology' element={<Technology />}>
+
+        <Route path='/technology' element={<TechnologyLayout />}>
+          <Route index element={<Technology />}/>
           <Route path='capsule' element={<Capsule />} />
           <Route path='spaceport' element={<Spaceport />} />
           <Route path='vehicle' element={<Vehicle />} />
