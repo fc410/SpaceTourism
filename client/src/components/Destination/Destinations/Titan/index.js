@@ -8,7 +8,7 @@ const Moon = () => {
             <img src={TITAN} alt='moon' className='titan-img'/>
 
             <div className="description-paragraph">
-                <div style={{fontSize: '70px'}}>
+                <div className='planet-text'>
                     Titan
                 </div>
                 <div classNames='moon-description'>

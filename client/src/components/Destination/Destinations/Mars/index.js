@@ -10,7 +10,7 @@ const Mars = () => {
             <img src={MARS} alt='mars' className='mars-img'/>
 
             <div className="description-paragraph">
-                <div style={{fontSize: '70px'}}>
+                <div className='planet-text'>
                     MARS
                 </div>
                 <div classNames='moon-description'>

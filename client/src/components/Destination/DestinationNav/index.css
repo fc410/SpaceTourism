@@ -32,3 +32,12 @@
 .des-a:visited, .des-a:active, .des-a:focus { 
     border-bottom: 5px solid white;
 }
+
+
+@media screen and (max-width: 768px) {
+    .nav-destination{
+        top: 53%;
+        right: 25%;
+        width: 48%;
+   }
+}

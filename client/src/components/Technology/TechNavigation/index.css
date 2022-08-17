@@ -22,7 +22,24 @@
     text-decoration: none;
 }
 
-.tech-a:visited, .tech-a:active, .tech-a:focus > .tech-nav{ 
+.tech-a:visited > .tech-nav , .tech-a:active > .tech-nav, .tech-a:focus > .tech-nav{ 
     background-color: white;
     color: rgb(128, 128, 128);
+}
+
+@media screen and (max-width: 768px){
+    .main-tech{
+        left: 45%;
+        top: 59%;
+    }
+    .tech-nav{
+        height: 40px;
+        width: 40px;
+        font-size: 24px;
+        display:flex;
+        flex-direction: row;
+        margin-left: 10px;
+        text-align: center;
+        justify-content: center;
+    }
 }

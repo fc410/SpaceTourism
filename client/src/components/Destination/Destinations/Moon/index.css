@@ -35,3 +35,34 @@
 .time{
     font-size: 30px;
 }
+
+.planet-text{
+    font-size: 70px;
+}
+
+@media screen and (max-width:768px){
+    .title{
+        top: 15%;
+        left: 3%;
+    }
+
+    .planet-text{
+        font-size: 60px;
+    }
+
+    .moon-img{
+        top: 22%;
+        left: 38%;
+    }
+
+   .description-paragraph{
+        top: 58%;
+        right: 15%;
+        width: 70%;
+        text-align: center;
+   }
+
+   .main-content-des{
+        background-image: url('../../../../images/destination/background-destination-tablet.jpg');
+    }
+}

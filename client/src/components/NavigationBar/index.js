@@ -11,7 +11,9 @@ const NavigationBar = () => {
                     to='/'
                     className='nav-a'
                 >
-                    00 Home
+                    <div className='home-text'>
+                        <span>00 Home</span>
+                    </div>
                 </NavLink>
 
                 <NavLink
@@ -20,7 +22,9 @@ const NavigationBar = () => {
                     to='/destination'
                     className='nav-a'
                 >
-                    01 Destination
+                    <div className='destination-text'>
+                        <span>01 Destination</span>
+                    </div>
                 </NavLink>
 
                 <NavLink
@@ -29,7 +33,9 @@ const NavigationBar = () => {
                     to='/crew'
                     className='nav-a'
                     >
-                    02 Crew
+                        <div className='crew-text'>
+                            <span>02 Crew</span>
+                        </div>
                 </NavLink>
 
                 <NavLink
@@ -37,8 +43,11 @@ const NavigationBar = () => {
                     activeclassname='active'
                     to='/technology'
                     className='nav-a'
-                >
-                    03 Technology
+                >   
+                    <div className='tech-text'>
+                        <span>03 Technology</span>
+                    </div>
+                    
                 </NavLink>
             </nav>
         </div>

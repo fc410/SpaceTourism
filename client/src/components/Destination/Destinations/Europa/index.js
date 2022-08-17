@@ -8,7 +8,7 @@ const Mars = () => {
 
 
             <div className="description-paragraph">
-                <div style={{fontSize: '70px'}}>
+                <div className='planet-text'>
                     EUROPA
                 </div>
                 <div classNames='moon-description'>

@@ -4,7 +4,8 @@ import VEHICLE from '../../../../images/technology/image-launch-vehicle-portrait
 const Vehicle = () =>{
     return(
         <div>
-            <img src={VEHICLE} alt='vehicle' className='tech-img' />  
+            <img src={VEHICLE} alt='vehicle' className='tech-vehicle'/>  
+
 
             <div className='tech-main-paragraph'>
                 <div className='desc'>

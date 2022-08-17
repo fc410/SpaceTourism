@@ -1,5 +1,4 @@
 import MOON from '../../../../images/destination/image-moon.webp';
-import DestinationNav from '../../DestinationNav';
 import './index.css';
 
 const Moon = () => {
@@ -10,7 +9,7 @@ const Moon = () => {
             <img src={MOON} alt='moon' className='moon-img'/>
 
             <div className="description-paragraph">
-                <div style={{fontSize: '70px'}}>
+                <div className='planet-text'>
                     Moon
                 </div>
                 <div classNames='moon-description'>

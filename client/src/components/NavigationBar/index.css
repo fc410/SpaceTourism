@@ -31,6 +31,44 @@
 }
 
 .nav-a:visited, .nav-a:active, .nav-a:focus { 
-    
     border-bottom: 5px solid white;
+}
+
+@media screen and (max-width: 768px){
+    .home-text span{
+        display: none;
+    }
+
+    .home-text:after{
+        content: "Home";
+    }
+
+    .destination-text span{
+        display: none;
+    }
+
+    .destination-text:after{
+        content: 'Destination';
+    }
+
+    .crew-text span{
+        display: none;
+    }
+
+    .crew-text:after{
+        content: 'Crew';
+    }
+
+    .tech-text span{
+        display: none;
+    }
+
+    .tech-text:after{
+        content: "Technology";
+    }
+
+    .main-navigation{
+        top: 1%;
+        width: 65%;
+    }
 }

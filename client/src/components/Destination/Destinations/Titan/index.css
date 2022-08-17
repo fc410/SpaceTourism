@@ -4,3 +4,10 @@
     top: 40%;
     left: 25%;
 }
+
+@media screen and (max-width:768px){
+    .titan-img{
+        top: 22%;
+        left: 38%;
+    }
+}

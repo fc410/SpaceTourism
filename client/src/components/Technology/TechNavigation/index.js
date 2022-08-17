@@ -1,6 +1,6 @@
 import {NavLink} from 'react-router-dom';
 import './index.css';
-import VEHICLE from '../../../images/technology/image-launch-vehicle-portrait.jpg';
+
 
 const TechNavigation = () =>{
     return (
@@ -12,7 +12,7 @@ const TechNavigation = () =>{
                     to='/technology/vehicle'
                     className='tech-a'
                 >
-                    <div className='tech-nav'> 1</div>
+                    <div className='tech-nav'>1</div>
                 </NavLink>
 
                 <NavLink

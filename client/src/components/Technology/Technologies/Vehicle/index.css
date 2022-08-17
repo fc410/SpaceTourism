@@ -1,0 +1,28 @@
+.tech-img{
+    position: absolute;
+    right: 0;
+    width: 30%;
+    top: 30%;
+}
+
+.tech-image{
+ width: 100%;
+}
+
+.tech-vehicle{
+    position: absolute;
+    width: 30%;
+    top: 30%;
+    right:0;
+}
+
+
+@media screen and (max-width: 768px){
+    .tech-vehicle{
+        content: url('../../../../images/technology/image-launch-vehicle-landscape.jpg');
+        width: 101%;
+        right: -5px;
+        top: 20%;
+        height: 35%;
+    }
+}

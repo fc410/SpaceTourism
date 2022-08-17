@@ -21,3 +21,16 @@
 .crew-a:visited > .crew-nav, .crew-a:active > .crew-nav, .crew-a:focus > .crew-nav{ 
     background-color: white;
 }
+
+@media screen and (max-width: 768px){
+    .crew-destination{
+        bottom: 48%;
+        left: 41%;
+        width: 20%;
+    }
+    
+    .crew-nav{
+        width: 10px;
+        height: 10px;
+    }
+}

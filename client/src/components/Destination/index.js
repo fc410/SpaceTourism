@@ -1,6 +1,4 @@
 import './index.css';
-import DestinationNav from './DestinationNav';
-import {Outlet} from 'react-router-dom';
 import MOON from '../../images/destination/image-moon.webp';
 
 const Destination = () => {

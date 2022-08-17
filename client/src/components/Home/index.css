@@ -1,14 +1,16 @@
 .main-content-home{
     background: url('../../images/home/background-home-desktop.jpg');
     min-height: 100vh;
-    width: 100%;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: 101% 101%;
 }
 
 .circle{
     display: flex;
     position: absolute;
     color: rgb(68, 109, 171);
-    border-radius: 112.50px;
+    border-radius: 50%;
     background-color: white;
     width: 225px;
     height: 225px;
@@ -40,4 +42,38 @@
     top: 70%;
     left: 12%;
     color:rgb(204, 198, 198);
+}
+
+
+@media screen and (max-width: 768px){
+    .main-content-home{
+        background: url('../../images/home/background-home-tablet.jpg');
+        background-size: 100% 100%;
+    }
+
+    .sentence-one{
+        top: 20%;
+        left: 41%;
+        font-size: 15px;;
+    }
+
+    .space{
+        top: 19%;
+        left: 36%;
+        font-size: 100px;
+    }
+
+    .home-paragraph{
+        top: 40%;
+        left: 34%;
+        text-align: center;
+        font-size: 12px;
+    }
+    
+    .circle{
+        width: 165px;
+        height: 165px;
+        top: 67%;
+        left: 42%;
+    }
 }

@@ -1,0 +1,16 @@
+.tech-spaceport{
+    position: absolute;
+    width: 30%;
+    top: 30%;
+    right:0;
+}
+
+@media screen and (max-width: 768px){
+    .tech-spaceport{
+        content: url('../../../../images/technology/image-spaceport-portrait.jpg');
+        width: 102%;
+        right: -5px;
+        top: 20%;
+        height: 35%;
+    }
+}

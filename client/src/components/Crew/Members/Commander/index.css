@@ -27,3 +27,35 @@
     padding-top: 25px;
     color: rgb(158, 158, 158);
 }
+
+@media screen and (max-width: 768px){
+    .main-text{
+        top: 20%;
+        left: 20%;
+        width: 60%;
+        text-align: center;
+    }   
+
+    .position{
+        font-size: 20px;
+    }
+
+    .crew-name{
+        font-size: 30px;
+    }
+
+    .main-text{
+        font-size: 14px;
+    }
+    
+    .crew-description{
+        padding-top: 5px;
+    }
+
+    .crew-img{
+        height: 50%;
+        right: 35%;
+    }
+
+    
+}

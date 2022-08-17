@@ -4,7 +4,7 @@ import SPACEPORT from  '../../../../images/technology/image-spaceport-portrait.j
 const Spaceport = () => {
     return(
         <div>
-            <img src={SPACEPORT} alt='vehicle' className='tech-img'/>  
+            <img src={SPACEPORT} alt='vehicle' className='tech-spaceport'/>  
 
             <div className='tech-main-paragraph'>
                 <div className='desc'>

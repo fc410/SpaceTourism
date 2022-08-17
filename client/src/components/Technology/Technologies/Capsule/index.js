@@ -4,7 +4,7 @@ import CAPSULE from '../../../../images/technology/image-space-capsule-portrait.
 const Capsule = () => {
     return (
         <div>
-            <img src={CAPSULE} alt='vehicle' className='tech-img'/>  
+            <img src={CAPSULE} alt='vehicle' className='tech-capsule'/>  
 
             <div className='tech-main-paragraph'>
                 <div className='desc'>
